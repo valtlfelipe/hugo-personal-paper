@@ -43,12 +43,11 @@
     {{ else }}
     <p class="title"><a href="{{.Site.BaseURL}}">{{ .Site.Title }}</a></p>
     {{ end }}
-    <button class="menu-toggle" type="button"></button>
     <nav class="menu">
       <ul>
-        {{ $currentPage := . }}
+        {{ $url := .URL }}
         {{ range .Site.Menus.main }}
-        <li class="{{ if $currentPage.IsMenuCurrent `main` . }}active{{ end }}">
+        <li class="{{if eq $url .URL}}active{{end}}">
           <a href="{{ .URL }}">{{ .Name }}</a>
         </li>
         {{ end }}

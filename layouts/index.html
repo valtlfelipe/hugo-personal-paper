@@ -1,0 +1,5 @@
+{{ if eq .Site.Params.home_mode "post" }}
+  {{ .Render "list" }}
+{{ else }}
+  {{ partial "home_profile.html" . }}
+{{ end }}
