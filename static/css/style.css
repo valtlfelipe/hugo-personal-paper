@@ -1,8 +1,8 @@
 /*
- * Paper v2.0
- * A simple & clean hugo theme
- * Designed by 21beats (http://21beats.com)
- * Updated in 2018.8.16
+ * Personal Paper v1.0
+ * A simple & clean hugo theme based on Paper
+ * Theme by valtlfelipe (https://felipe.im)
+ * Updated in 2018.9.30
  */
 
 /* Reset
@@ -239,10 +239,6 @@ pre, code {
   padding-top: 12vh;
   padding-bottom: 12vh;
   background: #fff;
-}
-.welcome-emoji {
-  font-size: 60px;
-  line-height: 1;
 }
 .first-entry .post-title {
   font-size: 50px;

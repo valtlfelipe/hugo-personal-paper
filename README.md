@@ -1,9 +1,7 @@
-Paper
+Personal Paper
 ========
 
-🥛 A simple, clean, flexible Hugo theme.
-
-Current version: [v2.0](https://github.com/nanxiaobei/hugo-paper/releases)
+🥛 A simple, clean, flexible Hugo theme based on [hugo-paper](https://github.com/nanxiaobei/hugo-paper/releases).
 
 ## Overview
 
